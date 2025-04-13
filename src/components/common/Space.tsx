@@ -4,7 +4,8 @@ interface SpaceProps {
 }
 
 const Space = ({ height = 10, className = '' }: SpaceProps) => {
-  return <div className={`h-[${height}vh] ${className}`} />;
+  const spaceClassName = `h-[${height}vh] ${className}`;
+  return <div className={spaceClassName} />;
 };
 
 export default Space;

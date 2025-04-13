@@ -10,7 +10,7 @@ const Footer = () => {
             <p className="text-zinc-600 dark:text-zinc-400">
               A modern blog platform with stunning 3D elements and seamless interactions.
             </p>
-          </div>
+          </div> 
           <div>
             <h4 className="text-lg font-semibold mb-4 text-zinc-800 dark:text-zinc-200">Quick Links</h4>
             <ul className="space-y-2">
